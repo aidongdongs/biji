@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="controller:war" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="08572630-c596-407a-99d5-dd097f127bc7" name="变更" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../gulimall" beforeDir="false" afterPath="$PROJECT_DIR$/../../gulimall" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../mybatis-笔记/day01.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../shiro/day01.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springSecurity/day01.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springSecurity/img/Snipaste_2023-04-20_14-44-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springSecurity/img/Snipaste_2023-04-20_14-45-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springSecurity/img/Snipaste_2023-04-20_14-51-46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springSecurity/img/Snipaste_2023-04-20_15-25-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../springSecurity/img/Snipaste_2023-04-21_13-17-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/target/classes/com/show/config/MyInterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/controller/target/classes/com/show/config/MyInterceptorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/target/controller.war" beforeDir="false" afterPath="$PROJECT_DIR$/controller/target/controller.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/target/controller/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/controller/target/controller/META-INF/MANIFEST.MF" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/target/controller/WEB-INF/classes/com/show/config/MyInterceptorConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/controller/target/controller/WEB-INF/classes/com/show/config/MyInterceptorConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/target/controller/WEB-INF/lib/dao-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/controller/target/controller/WEB-INF/lib/dao-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/controller/target/controller/WEB-INF/lib/service-1.0.jar" beforeDir="false" afterPath="$PROJECT_DIR$/controller/target/controller/WEB-INF/lib/service-1.0.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dao/dao.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../servicePojiect/service" beforeDir="false" afterPath="$PROJECT_DIR$/../servicePojiect/service" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Kotlin Class" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\jar\apache-maven-3.6.1\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../jar/apache-maven-3.6.1" />
+        <option name="useMavenConfig" value="true" />
+        <option name="userSettingsFile" value="D:\jar\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="vmOptions" value="-DarchetypeCatalog=internal" />
+  </component>
+  <component name="ProjectId" id="2Q5GXx5PkDD6CvrPgQphXATNyB6" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/724系统&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15527344&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;service.view.auto.scroll.to.source&quot;: &quot;true&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;28243e7be82d696c4972765b2929b9cd&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springcloud\untitled\dao\src\main\resources" />
+      <recent name="D:\springcloud\untitled\dao\target\classes\com" />
+      <recent name="D:\springcloud\untitled\controller\src\main" />
+      <recent name="D:\springcloud\untitled\controller\src\main\webapp" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\springcloud\untitled\dao\target\classes" />
+      <recent name="D:\springcloud\untitled\dao\src\main\java\com\show\mapper" />
+      <recent name="D:\springcloud\untitled\dao\src\main\resources\com.show.mapper" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.show.utill" />
+      <recent name="com.show.util" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat 服务器.Tomcat 9.0.29">
+    <configuration name="RoldMapperTest.testAdd" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.show.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.show.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.show.mapper.RoldMapperTest" />
+      <option name="METHOD_NAME" value="testAdd" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoldMapperTest.testDelete" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.show.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.show.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.show.mapper.RoldMapperTest" />
+      <option name="METHOD_NAME" value="testDelete" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoldMapperTest.testQueryByCodeCount" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.show.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.show.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.show.mapper.RoldMapperTest" />
+      <option name="METHOD_NAME" value="testQueryByCodeCount" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoldMapperTest.testQueryById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.show.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.show.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.show.mapper.RoldMapperTest" />
+      <option name="METHOD_NAME" value="testQueryById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RoldMapperTest.testUpdate" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dao" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.show.mapper.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.show.mapper" />
+      <option name="MAIN_CLASS_NAME" value="com.show.mapper.RoldMapperTest" />
+      <option name="METHOD_NAME" value="testUpdate" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Tomcat 9.0.29" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.29" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8083" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="controller:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="65f4f05d-909d-4e1e-91fb-339b8facb461" />
+        <option name="HTTP_PORT" value="8083" />
+        <option name="JNDI_PORT" value="1098" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="62011" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="controller:war" />
+        </option>
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="JUnit.RoldMapperTest.testAdd" />
+      <item itemvalue="JUnit.RoldMapperTest.testDelete" />
+      <item itemvalue="JUnit.RoldMapperTest.testQueryByCodeCount" />
+      <item itemvalue="JUnit.RoldMapperTest.testQueryById" />
+      <item itemvalue="JUnit.RoldMapperTest.testUpdate" />
+      <item itemvalue="Tomcat 服务器.Tomcat 9.0.29" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.RoldMapperTest.testDelete" />
+        <item itemvalue="JUnit.RoldMapperTest.testAdd" />
+        <item itemvalue="JUnit.RoldMapperTest.testQueryByCodeCount" />
+        <item itemvalue="JUnit.RoldMapperTest.testUpdate" />
+        <item itemvalue="JUnit.RoldMapperTest.testQueryById" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="08572630-c596-407a-99d5-dd097f127bc7" name="变更" comment="" />
+      <created>1684636073653</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684636073653</updated>
+      <workItem from="1684636074942" duration="983000" />
+      <workItem from="1684723584852" duration="8000" />
+      <workItem from="1684723875248" duration="655000" />
+      <workItem from="1684724791695" duration="34000" />
+      <workItem from="1684725096349" duration="3649000" />
+      <workItem from="1684735974654" duration="9427000" />
+      <workItem from="1684746658676" duration="597000" />
+      <workItem from="1684801150689" duration="20908000" />
+      <workItem from="1684824800063" duration="4068000" />
+      <workItem from="1684828994975" duration="4004000" />
+      <workItem from="1684833023572" duration="5273000" />
+      <workItem from="1684887208495" duration="9866000" />
+      <workItem from="1684897701856" duration="15500000" />
+      <workItem from="1684923775209" duration="2950000" />
+      <workItem from="1684974386045" duration="12357000" />
+      <workItem from="1684987351343" duration="1165000" />
+      <workItem from="1685012172455" duration="1568000" />
+      <workItem from="1685325716061" duration="31000" />
+      <workItem from="1687611137077" duration="2307000" />
+      <workItem from="1687613850130" duration="22000" />
+      <workItem from="1687663385446" duration="339000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/dao/src/test/java/com/show/mapper/StorageRecordTest.java</url>
+          <line>47</line>
+          <properties class="com.show.mapper.StorageRecordTest" method="testUpdate">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/dao/src/main/java/com/show/mapper/UserMapper.java</url>
+          <line>51</line>
+          <properties class="com.show.mapper.UserMapper" method="updatePassword">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/dao/src/test/java/com/show/mapper/UserMapperTest.java</url>
+          <line>68</line>
+          <properties class="com.show.mapper.UserMapperTest" method="testUpdatePassword">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/dao/src/test/java/com/show/mapper/RoldMapperTest.java</url>
+          <line>44</line>
+          <properties class="com.show.mapper.RoldMapperTest" method="testDelete">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

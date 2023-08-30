@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93b2b056-3123-4bad-9d77-8f614a6acf55" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../docher/docker安装宝塔.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../gulimall" beforeDir="false" afterPath="$PROJECT_DIR$/../../../gulimall" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../linux/day01.md" beforeDir="false" afterPath="$PROJECT_DIR$/../../../linux/day01.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis-笔记/day01.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../shiro/day01.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springCloud/1：父工程搭建.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springCloud/2：单机eureka搭操作.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springCloud/3：集群eureka搭建.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springCloud/4：服务注册到eureka.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springSecurity/day01.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springSecurity/img/Snipaste_2023-04-20_14-44-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springSecurity/img/Snipaste_2023-04-20_14-45-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springSecurity/img/Snipaste_2023-04-20_14-51-46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springSecurity/img/Snipaste_2023-04-20_15-25-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springSecurity/img/Snipaste_2023-04-21_13-17-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-alibaba/img/Snipaste_2023-06-09_13-51-59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-alibaba/nacos.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../测试.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../面试题目.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../项目/servicePojiect/service" beforeDir="false" afterPath="$PROJECT_DIR$/../../../项目/servicePojiect/service" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="2TMb5QtUXlZkpz6U4IEOCDO103s" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenDatabaseViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/aidong&quot;
+  }
+}</component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+</project>

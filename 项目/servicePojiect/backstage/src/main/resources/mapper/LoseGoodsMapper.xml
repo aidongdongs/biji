@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.show.mapper.LoseGoodsMapper">
+
+
+
+<!--
+receiptor varchar(255) comment '认领人',
+    dateOfClaim datetime comment '认领日期',
+    phone varchar(255) comment '联系电话',
+    responsiblePerson varchar(255) comment '经办人',
+    WayOfClaim int comment '认领方式' comment '0自提 1邮寄',
+    remark varchar(300) comment '备注'-->
+<insert id="add">
+    insert into loseGoods (id, description, img, foundPeople, departmentId, equipmentId, classify, classifyId, recipient,
+                           isDelete, creator, creatorTime, changeCreator, changeTime, receiptor, dateOfClaim, phone,
+                           responsiblePerson, WayOfClaim, remark)
+    values (                #{id},#{description},#{img},#{foundPeople},#{departmentId},#{equipmentId},#{classify},#{classifyId},#{recipient},
+                            #{isDelete},#{creator},#{creatorTime},#{changeCreator},#{changeTime},null,null,
+                            null,null,null,null);
+    </insert>
+
+<select id="queryPages" resultType="com.show.vo.LoseGoodsVo">
+    select
+        lo.id,lo.description,img,foundPeople,de.name as 'departmentId',eq.name as 'equipmentId',lo.classify,lo.classifyId,lo.receiptor,lo.isDelete,lo.creator,
+        lo.creatorTime,lo.changeCreator,lo.receiptor,lo.dateOfClaim,lo.phone,lo.responsiblePerson,lo.WayOfClaim,lo.remark,
+        lo.recipient
+    from loseGoods lo join department de on lo.departmentId=de.id
+                      join equipment eq on lo.equipmentId=eq.id
+
+        <where>
+            <if test="phone!=null and phone!= ''">
+                and phone = #{phone}
+            </if>
+            <if test="isGet!=null and isGet!= ''">
+                <choose>
+                    <when test="isGet==1">
+                        and lo.receiptor is  null
+                    </when>
+                    <when test="isGet==0">
+                        and lo.receiptor is not null
+                    </when>
+                </choose>
+            </if>
+            <if test="recipient!=null and recipient!='' ">
+                and recipient=#{recipient}
+            </if>
+        </where>
+        limit #{numberOfPages},#{showNumber}
+    ;
+    </select>
+
+<update id="addReceiverInfo">
+    update loseGoods
+        <set>
+            <if test="receiptor!=null">
+                receiptor=#{receiptor},
+            </if>
+            <if test="phone!=null">
+                phone=#{phone},
+            </if>
+            <if test="responsiblePerson!=null">
+                responsiblePerson=#{responsiblePerson},
+            </if>
+            <if test="wayOfClaim!=null">
+                WayOfClaim=#{wayOfClaim},
+            </if>
+            <if test="remark!=null">
+                remark=#{remark},
+            </if>
+            <if test="changeCreator!=null">
+                changeCreator=#{changeCreator},
+            </if>
+            <if test="changeTime!=null">
+                changeTime=#{changeTime},
+            </if>
+            <if test="dateOfClaim!=null">
+                dateOfClaim=#{dateOfClaim},
+            </if>
+        </set>
+
+        where  id=#{id}
+
+
+     </update>
+</mapper>

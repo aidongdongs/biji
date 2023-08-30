@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.t162.mapper.suppliermapper.SupplierMapper">
+    <insert id="add">
+        insert into t_supplier (supCode, supName, supDesc, supContact, supPhone, supAddress, supFax, createdUserId,
+                                createdTime, updatedTime, updatedUserId)
+        values (#{supCode},#{supName},#{supDesc},#{supContact},#{supPhone},#{supAddress},#{supFax},
+                #{createdUserId},#{createdTime},#{updatedTime},#{updatedUserId});
+    </insert>
+    <update id="updateSupplier">
+        update t_supplier
+        <set>
+                <if test="supCode != null and supCode != ''">
+                    supCode = #{supCode},
+                </if>
+                <if test="supName != null and supName != ''">
+                    supName = #{supName},
+                </if>
+                <if test="supPhone != null and supPhone != ''">
+                    supPhone = #{supPhone},
+                </if>
+                <if test="supContact != null and supContact != ''">
+                    supContact = #{supContact},
+                </if>
+                <if test="supAddress != null and supAddress != ''">
+                    supAddress = #{supAddress},
+                </if>
+                <if test="supFax != null and supFax != ''">
+                    supFax = #{supFax},
+                </if>
+                <if test="supDesc != null and supDesc != ''">
+                    supDesc = #{supDesc},
+                </if>
+        </set>
+        where id=#{id};
+    </update>
+    <select id="selectSupplier" resultType="com.t162.domain.Supplier">
+        select id, supCode, supName, supDesc, supContact, supPhone, supAddress,
+               supFax, createdUserId, createdTime, updatedTime, updatedUserId
+        from t_supplier
+    <where>
+        <if test="supCode != null and supCode!= ''">
+            supCode = #{supCode}
+        </if>
+        <if test="supName != null and supName!= ''">
+            supName = #{supName}
+        </if>
+    </where>
+    </select>
+</mapper>

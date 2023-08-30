@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.show.mapper.StorageRecordMapper">
+
+<select id="pages" resultType="com.show.vo.StorageRecordVo">
+    select  tsr.id,tsr.srCode,tsr.goodsName,tsr.goodsDesc,tsr.goodsUnit,
+    tsr.goodsCount,tsr.totalAmount,tsr.payStatus,tsr.createdUserId,
+    tsr.createdTime,tsr.updatedUserId,tsr.updatedTime,tsr.supplierId,ts.supName
+    from t_storage_record tsr join  t_supplier ts on tsr.supplierId=ts.id
+    <where>
+        <if test="queryGoodsName!=null and queryGoodsName !=''">
+            and  tsr.goodsName =  #{queryGoodsName}
+        </if>
+        <if test="queryPayStatus!=null and queryPayStatus !=''">
+           and tsr.payStatus=  #{queryPayStatus}
+        </if>
+        <if test="querySupplierId!=null and querySupplierId!=''">
+          and  supplierId=#{querySupplierId}
+        </if>
+    </where>
+        limit #{currentPage},#{pageSize}
+    </select>
+
+<select id="count" resultType="java.lang.Integer">
+    select count(*)
+    from t_storage_record tsr , t_supplier ts
+    <where>
+        tsr.supplierId=ts.id
+        <if test="queryGoodsName!=null and queryGoodsName!=''">
+            and tsr.goodsName=#{queryGoodsName}
+        </if>
+        <if   test="queryPayStatus!=null and queryPayStatus!=''">
+            and tsr.payStatus=#{queryPayStatus}
+        </if>
+        <if test="querySupplierId!=null and querySupplierId!=''">
+            and tsr.supplierId=#{querySupplierId}
+        </if>
+    </where>
+    </select>
+
+<delete id="delete">
+    delete
+    from t_storage_record
+    where id =#{id};
+    </delete>
+
+<select id="queryById" resultType="com.show.vo.StorageRecordVo">
+    select *
+    from t_storage_record tsr , t_supplier ts
+    where
+        tsr.supplierId=ts.id
+      and     tsr.id =#{id};
+
+    </select>
+
+<update id="update">
+    update t_storage_record
+        <set>
+            <if test="srCode!=null and srCode!= ''">
+                srCode=#{srCode},
+            </if>
+            <if test="goodsName!=null and goodsName!= ''">
+                goodsName=#{goodsName},
+            </if>
+            <if test="goodsDesc!=null and goodsDesc!= ''">
+                goodsDesc=#{goodsDesc},
+            </if>
+
+            <if test="goodsUnit!=null and goodsUnit!= ''">
+                goodsUnit=#{goodsUnit},
+            </if>
+
+            <if test="goodsCount!=null and goodsCount!= ''">
+                goodsCount=#{goodsCount},
+            </if>
+
+            <if test="totalAmount!=null and totalAmount!= ''">
+                totalAmount=#{totalAmount},
+            </if>
+
+            <if test="payStatus!=null and payStatus!= ''">
+                payStatus=#{payStatus},
+            </if>
+
+            <if test="createdUserId!=null and createdUserId!= ''">
+                createdUserId=#{createdUserId},
+            </if>
+
+            <if test="createdTime!=null and createdTime!= ''">
+                createdTime=#{createdTime},
+            </if>
+            <if test="updatedUserId!=null and updatedUserId!= ''">
+                updatedUserId=#{updatedUserId},
+            </if>
+
+            <if test="updatedTime!=null and updatedTime!= ''">
+                updatedTime=now(),
+            </if>
+
+            <if test="supplierId!=null and supplierId!= ''">
+                supplierId=#{supplierId},
+            </if>
+
+
+        </set>
+
+
+    where id= #{id};
+    </update>
+
+<insert id="add">
+    insert into t_storage_record (
+         srCode, goodsName,
+        goodsDesc, goodsUnit, goodsCount,
+        totalAmount, payStatus,createdUserId,
+        createdTime, updatedUserId, updatedTime, supplierId
+    )
+    values (
+        #{srCode},#{goodsName},null,#{goodsUnit},#{goodsCount},#{totalAmount},#{payStatus},#{createdTime},
+        now(),#{updatedUserId},now(),#{supplierId}
+           );
+
+</insert>
+</mapper>

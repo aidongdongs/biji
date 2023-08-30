@@ -1,0 +1,41 @@
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd
+        http://www.springframework.org/schema/aop
+        http://www.springframework.org/schema/aop/spring-aop.xsd
+        http://www.springframework.org/schema/tx
+        http://www.springframework.org/schema/tx/spring-tx.xsd">
+
+    <!-- 导入dao配置-->
+    <import resource="ApplicationContext-dao.xml"/>
+
+    <!-- 注解 扫描配置 -->
+    <context:component-scan base-package="com.t162.service"/>
+
+    <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">
+        <property name="dataSource" ref="dataSource"/>
+    </bean>
+
+    <!-- 进行事务相关配置   通知-->
+    <tx:advice id="txAdvice" transaction-manager="transactionManager">
+        <tx:attributes>
+            <tx:method name="*"/>
+            <tx:method name="find*" read-only="true" />
+        </tx:attributes>
+    </tx:advice>
+
+    <!-- 配置切面 -->
+    <aop:config>
+        <!-- 配置切点 -->
+        <aop:pointcut id="pointcut" expression="execution(* com.t162.service.*.*(..))"/>
+        <!-- 配置通知 -->
+        <aop:advisor advice-ref="txAdvice" pointcut-ref="pointcut"/>
+    </aop:config>
+
+</beans>

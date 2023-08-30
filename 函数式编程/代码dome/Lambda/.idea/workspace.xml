@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9973c6cd-0e4c-4513-a875-989c05da6ee3" name="更改" comment="">
+      <change beforePath="$PROJECT_DIR$/../../../gulimall" beforeDir="false" afterPath="$PROJECT_DIR$/../../../gulimall" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../mybatis-笔记/day01.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../shiro/day01.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springCloud/1：父工程搭建.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springCloud/2：单机eureka搭操作.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springCloud/3：集群eureka搭建.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springCloud/4：服务注册到eureka.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springSecurity/day01.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springSecurity/img/Snipaste_2023-04-20_14-44-05.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springSecurity/img/Snipaste_2023-04-20_14-45-25.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springSecurity/img/Snipaste_2023-04-20_14-51-46.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springSecurity/img/Snipaste_2023-04-20_15-25-15.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springSecurity/img/Snipaste_2023-04-21_13-17-32.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-alibaba/img/Snipaste_2023-06-09_13-51-59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../springcloud-alibaba/nacos.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../测试.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../项目/servicePojiect/service" beforeDir="false" afterPath="$PROJECT_DIR$/../../../项目/servicePojiect/service" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="F:\jar\apache-maven-3.6.1\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../../jar/apache-maven-3.6.1" />
+        <option name="userSettingsFile" value="F:\jar\apache-maven-3.6.1\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2ST21MNkY8aoF2MGlpsTy5drVk8" />
+  <component name="ProjectViewState">
+    <option name="showExcludedFiles" value="false" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;F:/xczx&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;模块&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;MavenSettings&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="应用程序.Main">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.show.Main" />
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.show.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.show.Main" />
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.show.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.show.Main" />
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.show.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.show.Main" />
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.show.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.show.Main" />
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.show.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.show.Main" />
+      <module name="Lambda" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.show.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="应用程序.Main" />
+        <item itemvalue="应用程序.Main (2)" />
+        <item itemvalue="应用程序.Main (1)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="9973c6cd-0e4c-4513-a875-989c05da6ee3" name="更改" comment="" />
+      <created>1689156034995</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1689156034995</updated>
+      <workItem from="1689156036322" duration="3849000" />
+      <workItem from="1689207933269" duration="2042000" />
+      <workItem from="1689243379391" duration="223000" />
+      <workItem from="1689293732732" duration="599000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

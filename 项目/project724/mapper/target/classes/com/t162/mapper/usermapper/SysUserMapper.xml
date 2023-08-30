@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.t162.mapper.usermapper.SysUserMapper">
+    <resultMap id="userMap" type="com.t162.domain.SysUser">
+        <result property="roleIdName" column="roleName"/>
+    </resultMap>
+    <insert id="addAll">
+        insert into t_sys_user (account, realName, password, sex, birthday, phone, address, roleId)
+        values (#{account},#{realName},#{password},#{sex},#{birthday},#{phone},#{address},#{roleId});
+    </insert>
+    <update id="updateUserById">
+        update t_sys_user
+       <set>
+           <if test="account!=null and account!=''">
+               account=#{account},
+           </if>
+           <if test="realName!=null and realName!=''">
+               realName=#{realName},
+           </if>
+           <if test="sex!=null and sex!=''">
+               sex=#{sex},
+           </if>
+           <if test="birthday!=null">
+               birthday=#{birthday},
+           </if>
+           <if test="phone!=null and phone!=''">
+               phone=#{phone},
+           </if>
+           <if test="address!=null and address!=''">
+               address=#{address},
+           </if>
+           <if test="roleId!=null and roleId!=''">
+               roleId=#{roleId},
+           </if>
+           <if test="updatedTime==null">
+               updatedTime=now(),
+           </if>
+           <if test="updatedUserId==null">
+               updatedUserId=#{id}
+           </if>
+       </set>
+        where id=#{id}
+    </update>
+    <select id="login" resultType="com.t162.domain.SysUser">
+        select *
+        from t_sys_user where account = #{account} and password = #{password}
+    </select>
+    <select id="selectAll" resultMap="userMap">
+        SELECT us.*,roleName, TimeStampDiff(year, birthday,now()) AS age FROM t_sys_user us LEFT JOIN t_sys_role ro ON(us.roleId=ro.id)
+        <where>
+            <if test="realName != null and realName !=''">
+               and  realName like concat('%',#{realName},'%')
+            </if>
+            <if test="roleId != null and roleId !=''">
+                 and roleId=#{roleId}
+            </if>
+        </where>
+    </select>
+</mapper>

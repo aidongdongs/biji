@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration
+        PUBLIC "-//mybatis.org//DTD Config 3.0//EN"
+        "https://mybatis.org/dtd/mybatis-3-config.dtd">
+
+<configuration>
+
+    <settings>
+        <!-- 打印查询语句 -->
+        <setting name="logImpl" value="STDOUT_LOGGING" />
+    </settings>
+
+    <typeAliases>
+        <package name="com.t162.domain"/>
+    </typeAliases>
+
+    <!--添加插件-->
+    <plugins>
+        <plugin interceptor="com.github.pagehelper.PageInterceptor">
+            <!-- 使用下面的方式配置参数 -->
+            <property name="param1" value="value1"/>
+            <property name="reasonable" value="true"/>
+        </plugin>
+    </plugins>
+    <mappers>
+            <package name="com.t162.mapper"/>
+    </mappers>
+
+</configuration>
