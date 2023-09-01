@@ -6,7 +6,7 @@ import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
 
 
-
+import java.util.Comparator;
 import java.util.List;
 
 
@@ -14,7 +14,7 @@ import java.util.List;
 @AllArgsConstructor
 @NoArgsConstructor
 @EqualsAndHashCode //
-public class Author {
+public class Author implements Comparable<Author> {
     private Long id;
 
     private String name;
@@ -24,4 +24,9 @@ public class Author {
     private String intro;
 
     private List<Book> books;
+
+    @Override
+    public int compareTo(Author o) {
+        return this.getAge()-o.getAge();
+    }
 }
